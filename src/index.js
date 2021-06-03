@@ -13,11 +13,11 @@ import TeamPage from './pages/TeamPage';
 ReactDOM.render(
   <>   
     <Router>
-      <Route path ='/' element= {<HomePage />} />
-      <Route path ='/masterclass' element= {<MasterclassPage />} />
-      <Route path ='/cocktail' element= {<CocktailPage />} />
-      <Route path ='/team' element= {<TeamPage />} />
-      <Route path ='/contact' element= {<ContactusPage />} />
+      <Route path ='/' component= {HomePage} exact />
+      <Route path ='/masterclass' component= {MasterclassPage} />
+      <Route path ='/cocktail' component= {CocktailPage} />
+      <Route path ='/team' component= {TeamPage} />
+      <Route path ='/contact' component= {ContactusPage} />
     </Router>
   </>,
   document.getElementById('root')
