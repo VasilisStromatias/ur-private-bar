@@ -2,12 +2,16 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import '../../css/Menu.css';
 
+import yellow from '../../images/yellow.png';
+
 function Menu () {
     return(
         <>
-    <nav className='main-menu d-flex justify-between navbar navbar-dark bg-dark
-    p-0'>
-            <Link to='/' className='navbar-brand mx-5 p-0'>Ur Private Bar</Link>
+    <nav className='main-menu d-flex justify-between navbar bg-main-dark
+    p-0 jura-font'>
+            <Link to='/' className='navbar-brand mx-5 p-0 text-light'>
+                <img src={yellow} alt='logo-yellow' className='logo' />
+            </Link>
 
         <div className='mx-5 '>
             <Link to='/' className='nav-item mx-3 text-light active'>Home</Link>

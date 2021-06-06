@@ -1,13 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* IMAGE SISES */
+
+.logo {
+  height: 40px;
+  width: 130px;
+}
+
+.logo-100x300{
+  height: 100px;
+  width: 300px;
+}
+
+.logo-350x1000{
+  height: 350px;
+  width: 1000px;
+}
+
+/* FONTS */
+.jura-font {
+  font-family: 'Jura', sans-serif;
+}
+
+.baloo-font {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+/* TEXT COLORS */
+
+.text-main-blue {
+  color:#254B59;
+}
+
+.text-main-light {
+  color: #F2F2F2;
+}
+
+.text-main-dark {
+  color: #00010D;
+}
+
+.text-main-gray {
+  color:#A6A6A6;
+}
+
+.text-secondary-blue {
+  color:#366273;
+}
+
+.text-main-yellow {
+  color: #d8ba43;
+}
+
+/* BACKGROUND COLORS */
+
+.bg-main-yellow{
+  background-color: #d8ba43;
+}
+
+.bg-secondary-blue{
+  background-color: #366273;
+}
+
+.bg-main-gray{
+  background-color: #A6A6A6;
+}
+
+.bg-main-dark{
+  background-color: #00010D;
+}
+
+.bg-main-blue {
+  background-color: #254B59;
+}
+
+.bg-main-light{
+  background-color: #F2F2F2;
+}
+
+/* OPACITY */
+
+.opacity-1{
+  opacity: 0.1;
+}
+
+.opacity-2{
+  opacity: 0.2;
+}
+
+.opacity-3{
+  opacity: 0.3;
+}
+
+.opacity-4{
+  opacity: 0.4;
+}
+
+.opacity-5{
+  opacity: 0.5;
 }

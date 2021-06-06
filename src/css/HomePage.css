@@ -1,11 +1,23 @@
 .level-1 {
-    height: 120vh;
-    background-image: url(../images/bachground-3.jpg); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+    height: 65vh;
 }
 
 .name-level-1 {
     font-size: 100px;
+}
+
+.subname-level-1{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.level-2 {
+    height: 80vh;
+    background-image: url(../images/pinkCocktail.jpg);
+    background-size:35vw 110vh;
+    background-position:center;
+}
+
+.cocktail-text {
+    width: 40vw;
 }
