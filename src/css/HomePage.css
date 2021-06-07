@@ -12,12 +12,39 @@
 }
 
 .level-2 {
-    height: 80vh;
-    background-image: url(../images/pinkCocktail.jpg);
-    background-size:35vw 110vh;
-    background-position:center;
+    height: 100vh;
+    background-image: url(../images/cocktail1.jpg);
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 .cocktail-text {
     width: 40vw;
+    font-weight: 700;
+}
+
+.cocktail-button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d8ba43;
+}
+ 
+.cocktail-button a:hover{
+    color:black;
+}
+
+.level-3 {
+    height: 100vh;
+    background-image: url(../images/masterclass1.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.level-4 {
+    height: 100vh;
+    background-image: url(../images/bar-service-1.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
 }

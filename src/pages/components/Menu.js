@@ -8,7 +8,7 @@ function Menu () {
     return(
         <>
     <nav className='main-menu d-flex justify-between navbar bg-main-dark
-    p-0 jura-font'>
+    p-0 jura-font sticky-top'>
             <Link to='/' className='navbar-brand mx-5 p-0 text-light'>
                 <img src={yellow} alt='logo-yellow' className='logo' />
             </Link>
