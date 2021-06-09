@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/CocktailPage.css';
 
-import cocktails1 from '../images/cocktails3.png';
 import cocktail from '../images/test.jpg';
 
 function CocktailPage (){
@@ -9,8 +8,8 @@ function CocktailPage (){
         <>
         <div className='cocktail-container jura-font container'>
 
-            <div className='image d-flex justify-content-center' >
-                <img src={cocktails1} alt='cocktail-1'/>
+            <div className='cocktail-list-title d-flex justify-content-center text-light' >
+                <h1 className='display-4'>Cocktail List</h1>
             </div>
 
             

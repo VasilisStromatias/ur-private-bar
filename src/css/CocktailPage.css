@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
 .cocktail-container{
     height: 2000px;
     background-color: black;
 }
 
-img {
-    height: 70vh;
-    width: 50vw;
+.cocktail-list-title h1{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Poiret One', cursive;
+    font-size: 150px;
+    font-weight: 500;
 }
+
  .cocktail{
-    height: 600px;
+    height:600px;
     width: 500px;
+    border: #d8ba43 10px solid;
  }
