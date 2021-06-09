@@ -1,0 +1,13 @@
+.cocktail-container{
+    height: 2000px;
+    background-color: black;
+}
+
+img {
+    height: 70vh;
+    width: 50vw;
+}
+ .cocktail{
+    height: 600px;
+    width: 500px;
+ }
