@@ -4,7 +4,11 @@ import '../css/TeamPage.css';
 function TeamPage (){
     return (
         <>
-        <h1>This is the TeamPage</h1>
+        <div className='team-container'>
+
+            <h1 className='text-main-light jura-font text-center display-4'>This is the Team Page</h1>
+
+        </div>
         </>   
     );
 }

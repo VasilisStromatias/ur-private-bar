@@ -4,7 +4,11 @@ import '../css/ContactusPage.css';
 function ContactusPage (){
     return (
         <>
-        <h1>This is the ContactusPage</h1>
+        <div className='contact-container'>
+            
+            <h1 className='text-main-light jura-font text-center display-4'>This is the Contact Page</h1>
+
+        </div>
         </>   
     );
 }

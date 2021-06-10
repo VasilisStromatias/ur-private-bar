@@ -3,7 +3,7 @@
 
 
 .cocktail-container{
-    height: 2000px;
+    height: max-content;
     background-color: black;
 }
 
