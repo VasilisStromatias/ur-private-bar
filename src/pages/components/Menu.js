@@ -14,7 +14,7 @@ function Menu () {
             </Link>
 
         <div className='mx-5 '>
-            <Link to='/' className='nav-item mx-3 text-light active'>Home</Link>
+            <Link to='/' className='nav-item mx-3 text-light'>Home</Link>
             <Link to='/masterclass' className='nav-item mx-3 text-light'>Masterclass</Link>
             <Link to='/cocktail' className='nav-item mx-3 text-light'>Cocktail</Link>
             <Link to='/barservices' className='nav-item mx-3 text-light'>Bar Services</Link>
