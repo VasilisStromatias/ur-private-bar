@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+.masterclass-page-title{
+    height: 250px;
+}
+
+.masterclass-page-title h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.masterclass-container{
+    height:max-content;
+    border: #d8ba43 30px solid;
+    margin: 50px;
+    padding: 50px;
+}
+
+.masterclass-text{
+    height: max-content;
+    width: 500px;
+}
+
+.masterclass-image {
+    height: 300px;
+    width: 600px;
+}
+
+.masterclass-title{
+    font-size: 40px;
+}
+
+.masterclass-information{
+    font-size: 15px;
+}
