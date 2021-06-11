@@ -48,3 +48,17 @@
     background-position: bottom;
     background-attachment: fixed;
 }
+
+.team-level{
+    height: 400px;
+}
+
+.team-level img{
+    height: 200px;
+    width: 200px;
+}
+
+.team-level-item{
+    height: 300px;
+    width: 300px;
+}
