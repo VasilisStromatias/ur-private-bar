@@ -2,6 +2,8 @@ import React from 'react';
 import '../css/HomePage.css';
 
 import {Link} from 'react-router-dom';
+import {SiFacebook , SiInstagram } from 'react-icons/si';
+
 
 
 import black from '../images/black.png';
@@ -81,6 +83,15 @@ function HomePage (){
                 <div className='text-main-yellow mt-4 jura-font'>
                     <h3>Ζάχος Κυρίτσης</h3>
                     <p>Head Bartender</p>
+                        <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                            <Link className='text-main-yellow'>
+                                <SiFacebook className='fb-icon'/>
+                            </Link>
+
+                            <Link className='text-main-yellow'>
+                                <SiInstagram className='instagram-icon'/>
+                            </Link>
+                        </div> {/* TEAM SOCIAL ICONS */}
                 </div>
             </div> {/* TEAM_LEVEL_ITEM */}
 
@@ -91,6 +102,15 @@ function HomePage (){
                 <div className='text-main-yellow mt-4 jura-font'>
                     <h3>Zachos Kyritsis</h3>
                     <p>Head Bartender</p>
+                        <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                            <Link className='text-main-yellow'>
+                                <SiFacebook className='fb-icon'/>
+                            </Link>
+
+                            <Link className='text-main-yellow'>
+                                <SiInstagram className='instagram-icon'/>
+                            </Link>
+                        </div> {/* TEAM SOCIAL ICONS */}
                 </div>
             </div> {/* TEAM_LEVEL_ITEM */}
 
@@ -101,6 +121,15 @@ function HomePage (){
                 <div className='text-main-yellow mt-4 jura-font'>
                     <h3>Zachos Kyritsis</h3>
                     <p>Head Bartender</p>
+                        <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                            <Link className='text-main-yellow'>
+                                <SiFacebook className='fb-icon'/>
+                            </Link>
+        
+                            <Link className='text-main-yellow'>
+                                <SiInstagram className='instagram-icon'/>
+                            </Link>
+                        </div> {/* TEAM SOCIAL ICONS */}
                 </div>
             </div> {/* TEAM_LEVEL_ITEM */}
 

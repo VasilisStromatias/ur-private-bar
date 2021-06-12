@@ -1,3 +1,36 @@
 .team-container{
-    height: 1000px;
+    height: 3000px;
+}
+
+.team-bg-image{
+    height: 300px;
+    width: 100%;
+    background-image: url('../images/teamImage.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.meet-team-text{
+    height: 300px;
+    width: 40vw;
+}
+
+.meet-team-text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-us-container{
+    height: 600px;
+}
+
+.about-us-image{
+    height: 400px;
+    width: 600px;
+    border:10px solid #d8ba43 ;
+}
+
+.about-us-text{
+    height: 400px;
+    width: 400px;
 }
