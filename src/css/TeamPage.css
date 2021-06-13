@@ -1,5 +1,5 @@
 .team-container{
-    height: 3000px;
+    height: max-content;
 }
 
 .team-bg-image{
@@ -33,4 +33,22 @@
 .about-us-text{
     height: 400px;
     width: 400px;
+}
+
+.team-members-container {
+    height: 600px;
+}
+
+.team-members-image , .team-members-item {
+    height: 300px;
+    width: 300px;
+}
+
+.team-members-main-heading h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.team-members-main-heading {
+    height: 150px;
 }

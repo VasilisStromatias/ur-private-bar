@@ -2,6 +2,11 @@ import React from 'react';
 import '../css/TeamPage.css';
 
 import test from '../images/masterclass1.jpg';
+import zachos from '../images/zachos.jpg';
+
+import {Link} from 'react-router-dom';
+import {SiFacebook , SiInstagram } from 'react-icons/si';
+
 
 function TeamPage (){
     return (
@@ -12,11 +17,18 @@ function TeamPage (){
                 <div className='meet-team-text d-flex justify-content-center align-items-center 
                 bg-dark opacity-8 mx-auto'> 
                     <h1 className=' text-main-light jura-font m-0'>
-                        Γνώρισε την ομάδα μας
+                        Γνωρίστε την ομάδα μας
                     </h1>
                 </div>
             </div> 
             {/* TEAM BG IMAGE */}
+
+            <div className='team-members-main-heading 
+            text-center jura-font text-main-light
+            d-flex align-items-end justify-content-center'>
+                <h1 className='m-0'>Σχετικά με μας</h1>
+            </div> 
+            {/* TEAM MEMBERS MAIN HEADING */}
 
             <div className='about-us-container p-5 m-5' >
 
@@ -43,8 +55,80 @@ function TeamPage (){
                 </div>
 
             </div> {/* ABOUT US CONTAINER */}
+            
+            <div className='team-members-main-heading 
+            text-center jura-font text-main-light'>
+                <h1>Η ομάδα μας</h1>
+            </div> 
+            {/* TEAM MEMBERS MAIN HEADING */}
+            
+            <div className='team-members-container container 
+            d-flex justify-content-between'>
 
-        </div>
+                <div className='team-members-item'>
+
+                    <img src={zachos} alt='zachos' 
+                    className='team-members-image'/>
+                        <div className='text-center text-main-light jura-font mt-4'>
+                            <h1>Zachos Kyritsis</h1>
+                            <p>Head Bartender</p>    
+                        </div>
+                            <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                                <Link className='text-main-yellow'>
+                                    <SiFacebook className='fb-icon'/>
+                                </Link>
+
+                                <Link className='text-main-yellow'>
+                                    <SiInstagram className='instagram-icon'/>
+                                </Link>
+                            </div> {/* TEAM SOCIAL ICONS */}
+
+                </div> {/* TEAM MEMBERS ITEM */}
+
+                <div className='team-members-item'>
+
+                    <img src={zachos} alt='zachos' 
+                    className='team-members-image'/>
+
+                        <div className='text-center text-main-light jura-font mt-4'>
+                            <h1>Zachos Kyritsis</h1>
+                            <p>Head Bartender</p>    
+                        </div>
+
+                            <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                                    <Link className='text-main-yellow'>
+                                        <SiFacebook className='fb-icon'/>
+                                    </Link>
+
+                                    <Link className='text-main-yellow'>
+                                        <SiInstagram className='instagram-icon'/>
+                                    </Link>
+                            </div> {/* TEAM SOCIAL ICONS */}
+
+                </div> {/* TEAM MEMBERS ITEM */}
+
+                <div className='team-members-item'>
+
+                    <img src={zachos} alt='zachos' 
+                    className='team-members-image'/>
+                        <div className='text-center text-main-light jura-font mt-4  '>
+                            <h1>Zachos Kyritsis</h1>
+                            <p>Head Bartender</p>    
+                        </div>
+                            <div className='team-social-icons d-flex justify-content-around mx-auto'>
+                                    <Link className='text-main-yellow'>
+                                        <SiFacebook className='fb-icon'/>
+                                    </Link>
+
+                                    <Link className='text-main-yellow'>
+                                        <SiInstagram className='instagram-icon'/>
+                                    </Link>
+                                </div> {/* TEAM SOCIAL ICONS */}
+                </div> {/* TEAM MEMBERS ITEM */}
+
+            </div> {/* TEAM MEMBERS CONTAINER */}
+
+        </div> {/* TEAM CONTAINER */}
         </>   
     );
 }
