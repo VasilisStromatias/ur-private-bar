@@ -1,3 +1,20 @@
 .contact-container{
-    height: 1000px;
+    height: 1200px;
+    background-image: url('../images/contactbg.jpg');
+}
+
+.contact-us-text{
+    height: 200px;
+}
+
+.contact-us-text h1{
+    font-size: 60px;
+}
+
+form{
+    height: 700px;
+    width: 50vw;
+}
+
+.name-input{
 }

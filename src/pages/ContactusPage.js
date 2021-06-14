@@ -6,9 +6,21 @@ function ContactusPage (){
         <>
         <div className='contact-container'>
             
-            <h1 className='text-main-light jura-font text-center display-4'>This is the Contact Page</h1>
+\            <div className='contact-us-text d-flex justify-content-center align-items-center 
+                bg-dark opacity-8 mx-auto'> 
+                <h1 className=' text-main-light jura-font m-0'>
+                    Επικοινώνηστε μαζί μας
+                </h1>
+            </div>
 
-        </div>
+            <form className='contact-form-container border bg-dark opacity-5
+            mx-auto my-5'> 
+
+            <input type='text' name='name' className='name-input'/>
+
+            </form>
+
+        </div> {/* CONTACT CONTAINER */}
         </>   
     );
 }
