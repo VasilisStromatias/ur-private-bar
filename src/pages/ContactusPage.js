@@ -16,9 +16,8 @@ function ContactusPage (){
             <form className='contact-form-container border bg-dark opacity-5
             mx-auto my-5'> 
 
-            <input type='text' name='name' className='name-input'/>
 
-            </form>
+            </form> {/* FORM */}
 
         </div> {/* CONTACT CONTAINER */}
         </>   
