@@ -1,5 +1,5 @@
 .level-1 {
-    height: 65vh;
+    height: 100vh;
 }
 
 .name-level-1 {
@@ -65,4 +65,14 @@
 
 .team-social-icons{
     width: 70px;
+}
+
+.about-us-section{
+    height: 70vh;
+}
+
+.about-us-section-text{
+    height: 400px;
+    width: 60%;
+
 }

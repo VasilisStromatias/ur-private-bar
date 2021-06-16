@@ -21,6 +21,35 @@ function HomePage (){
             </div>
         </div> {/* LEVEL-1 */}
 
+        <div className='about-us-section'>
+
+            <div className='about-us-section-text text-main-light text-center jura-font
+            d-flex flex-column justify-content-center align-items-center mx-auto'>
+                <h1 className='my-5 display-4'>Σχετικά με μας</h1>
+                <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Donec quis tellus ut tortor sagittis porta eget et ligula. 
+                Phasellus tortor mauris, consectetur sit amet pulvinar eu, tempor et 
+                sapien. Maecenas rutrum justo vitae odio maximus, et maximus felis 
+                feugiat. Ut condimentum, mi nec faucibus pulvinar, dolor nisi tincidunt 
+                nisi, vitae blandit purus arcu et risus. Integer finibus ante eget mi 
+                posuere cursus. Class aptent taciti sociosqu ad litora torquent per 
+                conubia nostra, per inceptos himenaeos. Praesent rhoncus 
+                tortor pellentesque tempus mattis. </p>
+                <p className='m-0'>In augue ante, tincidunt sit amet nisl ut, malesuada porttitor 
+                felis. Integer sagittis risus posuere blandit sodales. Nunc eleifend, 
+                metus nec tincidunt volutpat, neque risus sollicitudin mauris, eget 
+                accumsan libero tortor sit amet nisl. Aliquam congue tristique porta. 
+                Aenean efficitur neque arcu, id maximus lorem gravida sit amet. 
+                Suspendisse potenti. Pellentesque habitant morbi tristique senectus 
+                et netus et malesuada fames ac turpis egestas. Vestibulum non tristique 
+                lacus. Sed commodo orci quis mi viverra, sit amet imperdiet sem pretium. 
+                Maecenas magna velit, 
+                ullamcorper non dignissim ut, eleifend a sem.</p>
+
+            </div>
+            
+        </div>
+
         <div className='level-2 d-flex justify-content-center align-items-center text-center
         jura-font'>
 

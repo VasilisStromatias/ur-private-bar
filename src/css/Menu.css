@@ -3,7 +3,17 @@ a {
 } 
 
 .main-menu {
-    height: 7vh;
+    height: 60px;
 }
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    height: 50px;
+    width: 160px;
+}
+
 
 
