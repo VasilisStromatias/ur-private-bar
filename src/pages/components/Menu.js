@@ -19,19 +19,32 @@ function Menu () {
 
         <ul className='mx-5 p-0 d-flex my-auto'>
             <li className='nav-item'><Link to='/' className='=mx-3 text-light nav-link'>Home</Link></li>
-            <li className='nav-item'><Link to='/masterclass' className='=mx-3 text-light nav-link'>Masterclass</Link></li>
             <li className='nav-item'><Link to='/cocktail' className='=mx-3 text-light nav-link'>Cocktail</Link></li>
-            <li className='nav-item'><Link to='/barservices' className='=mx-3 text-light nav-link'>Bar Service</Link></li>
-            <div className='dropdown'>
-            <li className='nav-item'><Link to='#'    className='=mx-3 text-light nav-link dropdown-toggle'  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</Link></li>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a className="dropdown-item" href="#">Action</a>
-    <a className="dropdown-item" href="#">Another action</a>
-    <a className="dropdown-item" href="#">Something else here</a>
-    </div>
-            </div>
-            
-            
+
+            <Dropdown>
+                <Dropdown.Toggle id='dropdown-basic'>
+                    <li className='nav-item'><Link to='#' className='=mx-3 text-light nav-link'>Bar Service</Link></li>
+                </Dropdown.Toggle>
+                
+
+                <Dropdown.Menu>
+                    <Dropdown.Item>
+                        <Link to='/masterclass'>Masterclass</Link>
+                    </Dropdown.Item>
+
+                    <Dropdown.Item>
+                        <Link to='/masterclass'>Seminars</Link>
+                    </Dropdown.Item>
+
+                    <Dropdown.Item>
+                        <Link to='/masterclass'>Other one page</Link>
+                    </Dropdown.Item>
+
+                </Dropdown.Menu>
+            </Dropdown>
+
+
+            <li className='nav-item'><Link to='/gallery' className='=mx-3 text-light nav-link'>Gallery</Link></li>            
             <li className='nav-item'><Link to='/team' className='=mx-3 text-light nav-link'>Team</Link></li>
             <li className='nav-item'><Link to='/contact' className='=mx-3 text-light nav-link'>Contact us</Link></li>
         </ul>

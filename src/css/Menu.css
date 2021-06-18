@@ -15,5 +15,28 @@ ul{
     width: 160px;
 }
 
+#dropdown-basic{
+    padding: 0 ;
+    border: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#dropdown-basic:hover{
+    background-color: black;
+    border: black;
+}
+
+.dropdown-toggle::after{
+    margin-left: 0;
+}
+
+.dropdown-item a{
+    color: black ;
+    font-weight: 600;
+}
 
 
