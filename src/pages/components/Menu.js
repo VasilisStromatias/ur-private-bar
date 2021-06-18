@@ -22,10 +22,21 @@ function Menu () {
             <li className='nav-item'><Link to='/masterclass' className='=mx-3 text-light nav-link'>Masterclass</Link></li>
             <li className='nav-item'><Link to='/cocktail' className='=mx-3 text-light nav-link'>Cocktail</Link></li>
             <li className='nav-item'><Link to='/barservices' className='=mx-3 text-light nav-link'>Bar Service</Link></li>
+            <div className='dropdown'>
+            <li className='nav-item'><Link to='#'    className='=mx-3 text-light nav-link dropdown-toggle'  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</Link></li>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a className="dropdown-item" href="#">Action</a>
+    <a className="dropdown-item" href="#">Another action</a>
+    <a className="dropdown-item" href="#">Something else here</a>
+    </div>
+            </div>
+            
+            
             <li className='nav-item'><Link to='/team' className='=mx-3 text-light nav-link'>Team</Link></li>
             <li className='nav-item'><Link to='/contact' className='=mx-3 text-light nav-link'>Contact us</Link></li>
         </ul>
-            
+        
+  
     </nav>
         </>
     );

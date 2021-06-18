@@ -11,6 +11,8 @@ import CocktailPage from './pages/CocktailPage';
 import BarService from './pages/BarServicePage';
 import ContactusPage from './pages/ContactusPage';
 import TeamPage from './pages/TeamPage';
+import GalleryPage from './pages/GalleryPage';
+
 
 import Menu from './pages/components/Menu';
 import Footer from './pages/components/Footer';
@@ -27,6 +29,7 @@ ReactDOM.render(
       <Route path ='/barservices' component= {BarService} />
       <Route path ='/team' component= {TeamPage} />
       <Route path ='/contact' component= {ContactusPage} />
+      <Route path ='/gallery' component= {GalleryPage} />
 
     <Footer />
 
