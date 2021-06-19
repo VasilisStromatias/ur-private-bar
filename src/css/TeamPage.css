@@ -5,9 +5,9 @@
 .team-bg-image{
     height: 300px;
     width: 100%;
-    background-image: url('../images/teamImage.jpg');
+    background-image: url('../images/contactbg.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center right;
 }
 
 .meet-team-text{

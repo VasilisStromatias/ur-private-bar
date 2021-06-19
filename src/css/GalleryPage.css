@@ -1,0 +1,19 @@
+.gallery-heading{
+    height: 250px;
+}
+
+.gallery-heading h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.gallery-container{
+    height: 2000px; 
+    border: 20px solid #d8ba43;
+}
+
+.gallery-item img{
+    height: 400px;
+    width: 400px;
+}
