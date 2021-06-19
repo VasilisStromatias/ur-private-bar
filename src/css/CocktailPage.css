@@ -3,19 +3,28 @@
 
 
 .cocktail-container{
-    height: max-content;
+    height: 1500px;
     background-color: black;
 }
 
 .cocktail-list-title h1{
-    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Poiret One', cursive;
     font-size: 150px;
     font-weight: 500;
 }
 
  .cocktail{
-    height:600px;
-    width: 500px;
-    border: #d8ba43 10px solid;
+    height:350px;
+    width: 300px;
+    border: #d8ba43 7px solid;
+ }
+
+ .cocktail-title {
+     font-size: 30px;
+     font-weight: 600;
+ }
+
+ .cocktail-ingredients{
+     font-size: 15px;
+     font-weight: 400;
  }
