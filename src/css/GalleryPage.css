@@ -9,7 +9,7 @@
 }
 
 .gallery-container{
-    height: 2000px; 
+    height: max-content; 
     border: 20px solid #d8ba43;
 }
 

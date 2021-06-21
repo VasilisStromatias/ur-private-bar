@@ -19,34 +19,32 @@ function GalleryPage(){
         </div>
 
         <div className='gallery-container container p-5 m-5
-        mx-auto d-flex flex-column'>
+        mx-auto d-flex flex-column justify-content-center'>
             <div className='row'>
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={zachos} />
                 </div>
 
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={yellow} />
                 </div>
 
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={test} />
                 </div>
-            </div> {/* ROW 1 */}
 
-            <div className='row'>             
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={cocktail1 } />
                 </div>
 
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={zachos } />
                 </div>
 
-                <div className='gallery-item col-4'>
+                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
                     <img src={cocktail } />
                 </div>
-            </div> {/* ROW 2 */}
+            </div> {/* ROW */}
 
         </div>
 

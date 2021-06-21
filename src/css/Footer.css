@@ -11,9 +11,14 @@ footer {
 }
 
 .instagram-icon:hover{
-    color: palevioletred;
+    color: darkorchid;
 }
 
 .youtube-icon:hover{
     color:red;
+}
+
+.copyright-text{
+    font-size: 12px;
+    letter-spacing: 2px;
 }

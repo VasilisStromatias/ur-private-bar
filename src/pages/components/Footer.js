@@ -44,7 +44,7 @@ function Footer () {
 
     </footer>
 
-    <p className='m-0 text-main-gray opacity-4 text-center'>
+    <p className='copyright-text m-0 text-main-gray opacity-4 text-center'>
         Copyright &copy; 2021 Your Private Bar  | Desinged and developed by Vasilis Stromatias 
     </p>
         
