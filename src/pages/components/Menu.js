@@ -6,6 +6,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 import '../../css/Menu.css';
 
 import yellow from '../../images/yellow.png';
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 function Menu () {
     return(
@@ -17,6 +18,8 @@ function Menu () {
                 <img src={yellow} alt='logo-yellow' className='logo' />
             </Link>
 
+
+        <NavbarToggle />
         <ul className='mx-5 p-0 d-flex my-auto'>
             <li className='nav-item'><Link to='/' className='=mx-3 text-light nav-link'>Home</Link></li>
             <li className='nav-item'><Link to='/cocktail' className='=mx-3 text-light nav-link'>Cocktail</Link></li>
