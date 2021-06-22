@@ -15,13 +15,14 @@ import GalleryPage from './pages/GalleryPage';
 
 
 import Menu from './pages/components/Menu';
+import MenuTest from './pages/components/MenuTest';
 import Footer from './pages/components/Footer';
 
 ReactDOM.render(
   <>  
     <Router>
 
-    <Menu />
+    <MenuTest />
 
       <Route path ='/' component= {HomePage} exact />
       <Route path ='/masterclass' component= {MasterclassPage} />

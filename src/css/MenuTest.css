@@ -1,0 +1,12 @@
+nav{
+    height: 60px;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 140px;
+}
+
+.dropdown-toggle::after {
+    color: white;
+}

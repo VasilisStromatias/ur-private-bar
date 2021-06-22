@@ -39,7 +39,23 @@ ul{
     font-weight: 600;
 }
 
-.navbar-toggler-icon{
-    color:azure
-}
+@media only screen and (max-width:950px) {
+    li ,  #dropdown-basic{
+        display: none;
+    }
 
+    .logo {
+        height: 40px;
+        width: 130px;
+    }
+
+    .mobile-menu-icon {
+        font-size: 30px;
+    }
+
+    .mobile-menu-button{
+        border: none;
+        position: absolute;
+        left: 85%;
+    }
+}
