@@ -22,11 +22,11 @@ function MenuTest () {
 
 </Navbar>      
   
-<Navbar expand="lg" className='p-0 bg-main-dark sticky-top opacity-7'>
+<Navbar expand="md" className='p-0 bg-main-dark sticky-top opacity-7'>
 
-        <NavbarToggle />
+        <NavbarToggle className='toggle-icon' />
     
-    <NavbarCollapse>
+    <NavbarCollapse className='collapse'></NavbarCollapse>
 
     <Nav className='mx-auto'>
         <NavLink className='text-light' href='/'>Home</NavLink>
@@ -42,7 +42,7 @@ function MenuTest () {
         <NavLink className='text-light' href='/gallery'>Gallery</NavLink>
     </Nav>
 
-    </NavbarCollapse>
+    
 
 </Navbar>
 

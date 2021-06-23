@@ -1,5 +1,5 @@
 nav{
-    height: 60px;
+    height: 65px;
 }
 
 .navbar-brand img{
@@ -9,4 +9,18 @@ nav{
 
 .dropdown-toggle::after {
     color: white;
+}
+
+.toggle-icon{
+    background-color: white;
+    position: absolute;
+    left: 80%;
+}
+
+.collapse{
+    background-color: black;
+}
+
+@media only screen and (max-width:768px) {
+   
 }
