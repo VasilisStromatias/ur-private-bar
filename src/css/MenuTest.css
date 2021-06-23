@@ -1,10 +1,5 @@
 nav{
-    height: 65px;
-}
-
-.navbar-brand img{
-    height: 50px;
-    width: 140px;
+    height: 40px;
 }
 
 .dropdown-toggle::after {
@@ -22,5 +17,16 @@ nav{
 }
 
 @media only screen and (max-width:768px) {
-   
+   .main-test-menu{
+       display: none;
+   }
+}
+
+.navbar-logo {
+    height: 80px;
+}
+
+.navbar-logo img{
+    height: 70px;
+    width: 200px;
 }

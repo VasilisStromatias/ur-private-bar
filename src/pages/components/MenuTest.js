@@ -15,20 +15,21 @@ function MenuTest () {
     return(
         <>
 
-<Navbar expand="lg" className='p-0 bg-main-dark'>
-    <Navbar.Brand href='/' className='mx-auto p-0'>
-        <img src={white} alt ='nothing'/>
-    </Navbar.Brand> 
+<div className='navbar-logo'>
+   <a href='/' className='d-flex justify-content-center'>
+       <img src={white} alt='logo' />
+   </a>
+</div>
 
-</Navbar>      
-  
-<Navbar expand="md" className='p-0 bg-main-dark sticky-top opacity-7'>
+
+<Navbar expand="md" className='p-0 bg-main-dark sticky-top opacity-7
+main-menu-links'>
 
         <NavbarToggle className='toggle-icon' />
     
     <NavbarCollapse className='collapse'></NavbarCollapse>
 
-    <Nav className='mx-auto'>
+    <Nav className='main-test-menu '>
         <NavLink className='text-light' href='/'>Home</NavLink>
         <NavLink className='text-light' href='/cocktail'>Cocktails</NavLink>
         <NavLink className='text-light d-flex' href='#'>Bar Services</NavLink>
