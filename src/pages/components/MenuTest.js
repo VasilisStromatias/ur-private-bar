@@ -22,17 +22,16 @@ function MenuTest () {
 </div>
 
 
-<Navbar expand="md" className='p-0 bg-main-dark sticky-top opacity-7
-main-menu-links'>
+<Navbar expand='md' sticky='top' className='p-0 bg-main-dark opacity-7'>
 
         <NavbarToggle className='toggle-icon' />
     
     <NavbarCollapse className='collapse'></NavbarCollapse>
 
-    <Nav className='main-test-menu '>
+    <Nav className='main-test-menu'>
         <NavLink className='text-light' href='/'>Home</NavLink>
         <NavLink className='text-light' href='/cocktail'>Cocktails</NavLink>
-        <NavLink className='text-light d-flex' href='#'>Bar Services</NavLink>
+        <NavLink className='text-light' href='#'>Bar Services</NavLink>
             <NavDropdown>
                 <NavDropdown.Item href='/masterclass'>Masterclass</NavDropdown.Item>
                 <NavDropdown.Item href='/'>Seminars</NavDropdown.Item>

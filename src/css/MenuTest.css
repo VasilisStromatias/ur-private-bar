@@ -16,12 +16,6 @@ nav{
     background-color: black;
 }
 
-@media only screen and (max-width:768px) {
-   .main-test-menu{
-       display: none;
-   }
-}
-
 .navbar-logo {
     height: 80px;
 }
@@ -29,4 +23,10 @@ nav{
 .navbar-logo img{
     height: 70px;
     width: 200px;
+}
+
+@media only screen and (max-width:768px) {
+   .main-test-menu{
+       display: none;
+   }
 }
