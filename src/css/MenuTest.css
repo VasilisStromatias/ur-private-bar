@@ -1,5 +1,5 @@
 nav{
-    height: 45px;
+    height: 50px;
 }
 
 .dropdown-toggle::after {
@@ -28,8 +28,31 @@ nav{
     width: 200px;
 }
 
+.collapse-menu{
+    margin-top: 400px;
+    width: 100vw;
+    height: max-content;
+    text-align: center;
+    font-size: 22px;
+}
+
+.dropdown-menu {
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
 @media only screen and (max-width:768px) {
    .main-test-menu{
        display: none;
    }
+
 }
+
+@media only screen and (min-width:768px) {
+    .collapse-menu{
+        display: none;
+    }
+
+ }

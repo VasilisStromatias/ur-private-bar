@@ -25,9 +25,8 @@ d-flex flex-column justify-content-center align-items-center'>
 
         <NavbarToggle className='toggle-icon' />
     
-<NavbarCollapse className='collapse'>
-    
-    <Nav className='main-test-menu'>
+<NavbarCollapse className='collapse jura-font'>
+<Nav className='collapse-menu'>
         <NavLink className='text-light' href='/'>Home</NavLink>
         <NavLink className='text-light' href='/cocktail'>Cocktails</NavLink>
         <NavLink className='text-light' href='#'>Bar Services</NavLink>
@@ -41,7 +40,23 @@ d-flex flex-column justify-content-center align-items-center'>
         <NavLink className='text-light' href='/gallery'>Gallery</NavLink>
     </Nav>
 
-    </NavbarCollapse>
+</NavbarCollapse>
+    
+    <Nav className='main-test-menu jura-font'>
+        <NavLink className='text-light' href='/'>Home</NavLink>
+        <NavLink className='text-light' href='/cocktail'>Cocktails</NavLink>
+        <NavLink className='text-light' href='#'>Bar Services</NavLink>
+            <NavDropdown>
+                <NavDropdown.Item href='/masterclass'>Masterclass</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Seminars</NavDropdown.Item>
+                <NavDropdown.Item href='/'>Services</NavDropdown.Item>
+            </NavDropdown>
+        <NavLink className='text-light' href='/team'>Team</NavLink>
+        <NavLink className='text-light' href='/contact'>Contact us</NavLink>
+        <NavLink className='text-light' href='/gallery'>Gallery</NavLink>
+    </Nav>
+    
+
 
 </Navbar>
         </>
