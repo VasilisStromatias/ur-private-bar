@@ -1,5 +1,5 @@
 nav{
-    height: 40px;
+    height: 45px;
 }
 
 .dropdown-toggle::after {
@@ -7,6 +7,9 @@ nav{
 }
 
 .toggle-icon{
+    height: 40px;
+    width: 50px;
+    padding: 0;
     background-color: white;
     position: absolute;
     left: 80%;

@@ -14,7 +14,7 @@ import TeamPage from './pages/TeamPage';
 import GalleryPage from './pages/GalleryPage';
 
 
-import Menu from './pages/components/Menu';
+// import Menu from './pages/components/Menu';
 import MenuTest from './pages/components/MenuTest';
 import Footer from './pages/components/Footer';
 

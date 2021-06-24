@@ -20,14 +20,13 @@ function MenuTest () {
        <img src={white} alt='logo' />
    </a>
 </div>
-
-
-<Navbar expand='md' sticky='top' className='p-0 bg-main-dark opacity-7'>
+<Navbar expand='md' sticky='top' className='p-0 bg-main-dark opacity-8
+d-flex flex-column justify-content-center align-items-center'>
 
         <NavbarToggle className='toggle-icon' />
     
-    <NavbarCollapse className='collapse'></NavbarCollapse>
-
+<NavbarCollapse className='collapse'>
+    
     <Nav className='main-test-menu'>
         <NavLink className='text-light' href='/'>Home</NavLink>
         <NavLink className='text-light' href='/cocktail'>Cocktails</NavLink>
@@ -42,10 +41,9 @@ function MenuTest () {
         <NavLink className='text-light' href='/gallery'>Gallery</NavLink>
     </Nav>
 
-    
+    </NavbarCollapse>
 
 </Navbar>
-
         </>
     );
 }
