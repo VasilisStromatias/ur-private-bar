@@ -68,7 +68,7 @@
 }
 
 .about-us-section{
-    height: 70vh;
+    height: 500px;
 }
 
 .about-us-section-text{
@@ -80,11 +80,44 @@
         height: 800px;
     }
 
+    .level-2 {
+        background-position: center top;
+    }
+
+    .cocktail-text {
+        font-size: 22px;
+    }
+
+    .cocktail-button {
+        height: 50px;
+        width: 250px;
+        font-size: 18px;
+    }
  
 }
 
 @media only screen and (max-width: 592px){
     .team-level {
         height: 1200px;
+    }
+
+    .about-us-section-text p{ 
+        font-size: 15px; 
+        width: 75%  !important;
+    }
+
+    .cocktail-text {
+        width: 60vw;
+        font-size: 20px;
+    }
+
+    .cocktail-button {
+        height: 50px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .level-2 {
+        background-position: center top;
     }
 }
