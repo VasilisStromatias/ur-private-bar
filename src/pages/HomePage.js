@@ -90,10 +90,10 @@ function HomePage (){
         </div>{/* LEVEL-4 */}
 
 
-        <div className='team-level d-flex justify-content-around align-items-center'>
+        <div className='team-level d-flex justify-content-around align-items-center row'>
 
             <div className='team-level-item d-flex flex-column justify-content-center align-items-center 
-            text-center'>
+            text-center col-lg-4'>
                 <img src={zachos} alt='coc' 
                 className='rounded-circle'/>
                 <div className='text-main-yellow mt-4 jura-font'>
@@ -112,7 +112,7 @@ function HomePage (){
             </div> {/* TEAM_LEVEL_ITEM */}
 
             <div className='team-level-item d-flex flex-column justify-content-center align-items-center 
-            text-center'>
+            text-center col-lg-4'>
                 <img src={zachos} alt='coc' 
                 className='rounded-circle'/>
                 <div className='text-main-yellow mt-4 jura-font'>
@@ -131,7 +131,7 @@ function HomePage (){
             </div> {/* TEAM_LEVEL_ITEM */}
 
             <div className='team-level-item d-flex flex-column justify-content-center align-items-center 
-            text-center'>
+            text-center col-lg-4'>
                 <img src={zachos} alt='coc' 
                 className='rounded-circle'/>
                 <div className='text-main-yellow mt-4 jura-font'>

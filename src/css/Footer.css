@@ -1,5 +1,5 @@
 footer {
-    height: 200px;
+    height: 250px;
 }
 
 .social-icons{
@@ -21,4 +21,27 @@ footer {
 .copyright-text{
     font-size: 12px;
     letter-spacing: 2px;
+}
+
+.logo-100x300{
+    height: 100px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 992px){
+    footer {
+        height: max-content;
+    }
+
+    .contact , .social {
+        height: 150px ;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    
 }
