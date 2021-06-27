@@ -12,12 +12,13 @@
 
 .meet-team-text{
     height: 300px;
-    width: 40vw;
+    width: 50vw;
 }
 
 .meet-team-text h1{
     font-size: 50px;
     font-weight: 700;
+    text-align: center;
 }
 
 .about-us-container{
@@ -31,8 +32,8 @@
 }
 
 .about-us-text{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
 }
 
 .team-members-container {
@@ -51,4 +52,130 @@
 
 .team-members-main-heading {
     height: 150px;
+}
+
+@media only screen and (max-width: 1284px){
+    .about-us-container{
+        height: 1000px;
+    }
+
+    
+    .about-us-image{
+        height: 500px;
+        width: 800px;
+    }
+
+    .about-us-text{
+        font-size: 20px;
+        height: 500px;
+        width: 600px;
+   }
+}
+
+@media only screen and (max-width: 1184px){
+    .meet-team-text{
+        height: 300px;
+        width: 60vw;
+    }
+
+    .meet-team-text h1{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .about-us-container{
+        height: 1000px;
+    }
+
+    .about-us-image{
+        height: 500px;
+        width: 800px;
+        border:10px solid #d8ba43 ;
+    }
+
+    .about-us-text{
+        font-size: 20px;
+        height: 500px;
+        width: 600px;
+   }
+}
+
+@media only screen and (max-width: 992px){
+    .meet-team-text{
+        height: 300px;
+        width: 70vw;
+    }
+
+    .meet-team-text h1{
+        font-size: 50px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .team-members-main-heading h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .about-us-container{
+        height: max-content;
+    }
+
+    .about-us-image{
+        height: 400px;
+        width: 600px;
+        border:8px solid #d8ba43 ;
+    }
+
+    .about-us-text{
+        font-size: 19px;
+        height: 450px;
+        width: 500px;
+   }
+
+   .team-members-container {
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+}
+
+@media only screen and (max-width: 592px){
+    .meet-team-text{
+        height: 300px;
+        width: 70vw;
+    }
+
+    .meet-team-text h1{
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .team-members-main-heading h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .about-us-container{
+        height: max-content;
+        padding: 5px !important;
+    }
+
+    .about-us-image{
+        height: 300px;
+        width: 400px;
+        border:5px solid #d8ba43 ;
+    }
+
+    .about-us-text{
+        font-size: 17px;
+        height: 500px;
+   }
+
+    .team-members-container {
+        height: 1500px;
+        padding: 0;
+        margin: 0;
+    }
 }

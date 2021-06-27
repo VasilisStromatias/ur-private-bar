@@ -32,14 +32,14 @@ function TeamPage (){
 
             <div className='about-us-container p-5 m-5' >
 
-                <div className=' d-flex justify-content-around align-items-center'>
+                <div className=' d-flex justify-content-around align-items-center row'>
 
                     <img src={test} alt='test'
-                    className='about-us-image'/>
+                    className='about-us-image col-sm-12'/>
                 
 
                     <h5 className='about-us-text text-main-light d-flex align-items-center text-center 
-                    m-0 jura-font'>
+                    m-0 jura-font col-sm-12'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Vivamus et molestie odio. Maecenas lobortis ornare nibh, nec tempor nibh 
                         accumsan vitae. Vestibulum tellus dolor, scelerisque non mauris vitae, viverra
@@ -62,10 +62,12 @@ function TeamPage (){
             </div> 
             {/* TEAM MEMBERS MAIN HEADING */}
             
-            <div className='team-members-container container 
-            d-flex justify-content-between'>
+            <div className='team-members-container  
+            d-flex justify-content-between p-0
+            row'>
 
-                <div className='team-members-item'>
+                <div className='team-members-item mx-auto
+                col-sm-12 col-md-6 col-lg-6'>
 
                     <img src={zachos} alt='zachos' 
                     className='team-members-image'/>
@@ -85,7 +87,8 @@ function TeamPage (){
 
                 </div> {/* TEAM MEMBERS ITEM */}
 
-                <div className='team-members-item'>
+                <div className='team-members-item mx-auto
+                col-sm-12 col-md-6 col-lg-6'>
 
                     <img src={zachos} alt='zachos' 
                     className='team-members-image'/>
@@ -107,7 +110,8 @@ function TeamPage (){
 
                 </div> {/* TEAM MEMBERS ITEM */}
 
-                <div className='team-members-item'>
+                <div className='team-members-item mx-auto
+                col-sm-12 col-md-6 col-lg-12'>
 
                     <img src={zachos} alt='zachos' 
                     className='team-members-image'/>
