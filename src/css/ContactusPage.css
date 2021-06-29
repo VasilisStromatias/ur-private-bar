@@ -27,3 +27,60 @@ form{
     font-size: 12px;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 592px){
+    .contact-us-text{
+        height: 150px;
+    }
+    
+    .contact-us-text h1{
+        font-size: 40px;
+        text-align: center;
+        width: 75%;
+    }
+
+    form{
+        width: 75vw;
+    }
+
+    .contact-form-container{
+        width: 75vw;
+    }
+
+    input , .input-name, .input-email, .input-message{
+        width: 75% !important;
+    }
+
+    label {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .contact-us-text{
+        height: 150px;
+    }
+    
+    .contact-us-text h1{
+        font-size: 45px;
+        text-align: center;
+        width: 75%;
+    }
+
+    form{
+        width: 75vw;
+    }
+
+    .contact-form-container{
+        width: 75vw;
+    }
+
+    input , .input-name, .input-email, .input-message{
+        width: 60% !important;
+    }
+
+    label {
+        text-align: center;
+    }
+
+}

@@ -12,9 +12,10 @@ function CocktailPage (){
                 <h1 className='display-4'>Cocktail List</h1>
             </div>
 
-        <div>
+        <div className='row'>
             
-            <div className='image d-flex justify-content-around align-items-center my-5'>
+            <div className='image d-flex justify-content-around align-items-center my-5
+            col-sm-12'>
 
                 <img src={cocktail} alt='cocktail-2' className='cocktail'/>
                 
@@ -33,7 +34,8 @@ function CocktailPage (){
             </div>  {/*COCKTAILS LIST LINE 1 */}        
              
 
-            <div className='image d-flex justify-content-around align-items-center my-5'>
+            <div className='image d-flex justify-content-around align-items-center my-5
+            col-sm-12'>
 
                 <img src={cocktail} alt='cocktail-2' className='cocktail'/>
 
