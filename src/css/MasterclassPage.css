@@ -20,7 +20,6 @@
 
 .masterclass-text{
     height: max-content;
-    width: 500px;
 }
 
 .masterclass-image {
@@ -34,4 +33,35 @@
 
 .masterclass-information{
     font-size: 15px;
+}
+
+@media only screen and (max-width: 592px){
+    .masterclass-page-title{
+        height: 100px;
+    }
+    
+    .masterclass-page-title h1 {
+        font-size: 70px;
+    }
+
+    .masterclass-container{
+        border: #d8ba43 10px solid;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .masterclass-image {
+        height: 200px;
+        width: 400px;
+    }
+
+    .masterclass-title{
+        font-size: 30px;
+    }
+    
+    .masterclass-information{
+        font-size: 15px;
+        width: 80%;
+    }
+
 }

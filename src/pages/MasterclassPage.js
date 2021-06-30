@@ -10,17 +10,20 @@ function MasterclassPage (){
             <h1 className='text-main-light'>Masterclasses</h1>
         </div>
 
-        <div className='masterclass-container jura-font'>
+        <div className='masterclass-container jura-font
+        '>
 
-            <div className='masterclass-item text-main-light d-flex align-items-center
-            justify-content-around my-5'>
+            <div className='masterclass-item text-main-light 
+            d-flex flex-column align-items-center
+            justify-content-around my-5
+            '>
 
                     <img src={masterclass} alt='masterclassImage'
                     className='masterclass-image' />
 
                 <div className='masterclass-text text-center'>
                     <h2 className='masterclass-title'>Masterclass Title</h2>
-                    <p className='masterclass-information m-0'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className='masterclass-information mx-auto'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vivamus et molestie odio. Maecenas lobortis ornare nibh, nec tempor nibh 
                     accumsan vitae. Vestibulum tellus dolor, scelerisque non mauris vitae, viverra
                     blandit elit. Proin aliquam sem non ligula consectetur viverra. Praesent vel
@@ -30,15 +33,17 @@ function MasterclassPage (){
 
             </div> {/* MASTERCLASS ITEM */}
 
-            <div className='masterclass-item text-main-light d-flex align-items-center
-            justify-content-around my-5'>
+            <div className='masterclass-item text-main-light 
+            d-flex flex-column align-items-center 
+            justify-content-around my-5
+            '>
 
                     <img src={masterclass} alt='masterclassImage'
                     className='masterclass-image' />
 
                 <div className='masterclass-text text-center'>
                     <h2 className='masterclass-title'>Masterclass Title</h2>
-                    <p className='masterclass-information m-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className='masterclass-information mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vivamus et molestie odio. Maecenas lobortis ornare nibh, nec tempor nibh 
                     accumsan vitae. Vestibulum tellus dolor, scelerisque non mauris vitae, viverra
                     blandit elit. Proin aliquam sem non ligula consectetur viverra. Praesent vel
@@ -51,15 +56,17 @@ function MasterclassPage (){
 
             </div> {/* MASTERCLASS ITEM */}
 
-            <div className='masterclass-item text-main-light d-flex align-items-center
-            justify-content-around my-5'>
+            <div className='masterclass-item text-main-light 
+            d-flex flex-column align-items-center
+            justify-content-around my-5
+            '>
 
                     <img src={masterclass} alt='masterclassImage'
                     className='masterclass-image' />
 
                 <div className='masterclass-text text-center'>
                     <h2 className='masterclass-title'>Masterclass Title</h2>
-                    <p className='masterclass-information m-0'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className='masterclass-information mx-auto'> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vivamus et molestie odio. Maecenas lobortis ornare nibh, nec tempor nibh 
                     accumsan vitae. Vestibulum tellus dolor, scelerisque non mauris vitae, viverra
                     blandit elit. Proin aliquam sem non ligula consectetur viverra. Praesent vel
