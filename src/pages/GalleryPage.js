@@ -18,31 +18,39 @@ function GalleryPage(){
             <h1 className='text-main-light text-center'>Gallery</h1>
         </div>
 
-        <div className='gallery-container container p-5 m-5
-        mx-auto d-flex flex-column justify-content-center'>
+        <div className='gallery-container p-4 m-4
+        d-flex flex-column justify-content-center text-center'>
+
             <div className='row'>
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={zachos} />
+
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={zachos} alt='test-images'  />
                 </div>
 
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={yellow} />
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={yellow} alt='test-images' />
                 </div>
 
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={test} />
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={test} alt='test-images' />
                 </div>
 
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={cocktail1 } />
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={cocktail1 } alt='test-images' />
                 </div>
 
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={zachos } />
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={zachos } alt='test-images' />
                 </div>
 
-                <div className='gallery-item col-md-6 col-sm-12 col-lg-4'>
-                    <img src={cocktail } />
+                <div className='gallery-item my-4
+                col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-4'>
+                    <img src={cocktail } alt='test-images' />
                 </div>
             </div> {/* ROW */}
 

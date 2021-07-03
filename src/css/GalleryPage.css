@@ -17,3 +17,42 @@
     height: 400px;
     width: 400px;
 }
+
+@media only screen and (max-width: 992px){
+    .gallery-heading{
+        height: 200px;
+    }
+    
+    .gallery-heading h1 {
+        font-size: 120px;
+    }
+
+    .gallery-container{
+        border: 15px solid #d8ba43;
+    }
+
+    .gallery-item img{
+        height: 350px;
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 592px){
+    .gallery-heading{
+        height: 150px;
+    }
+    
+    .gallery-heading h1 {
+        font-size: 100px;
+    }
+
+    .gallery-container{
+        border: 10px solid #d8ba43;
+    }
+
+    .gallery-item img{
+        height: 300px;
+        width: 300px;
+    }
+}

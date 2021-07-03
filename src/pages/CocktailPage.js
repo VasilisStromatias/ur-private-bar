@@ -93,10 +93,11 @@ function CocktailPage (){
             </div>  {/* ROW */}
 
 
-            <div className='download-menu-button-container'>
-                <button className='download-menu-button btn btn-warning w-75'>
+            <div className='download-menu-button-container mb-5'>
+                <button className='download-menu-button btn
+                '>
                     <a href='#' 
-                    className='download-menu-link'>
+                    className='download-menu-link text-main-dark'>
                         Download the menu here
                     </a>
                 </button>

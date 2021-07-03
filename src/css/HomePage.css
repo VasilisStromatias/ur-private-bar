@@ -35,6 +35,10 @@
     color:black;
 }
 
+a {
+    text-decoration: none;
+  } 
+  
 .level-3 {
     height: 100vh;
     background-image: url(../images/masterclass1.jpg);

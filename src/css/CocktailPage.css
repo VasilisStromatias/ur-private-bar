@@ -30,6 +30,26 @@
      font-weight: 400;
  }
 
+ .download-menu-button-container{
+     text-align: center;
+ }
+
+ .download-menu-button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #d8ba43;
+}
+ 
+.download-menu-button a:hover{
+    color:black;
+}
+
+a {
+    text-decoration: none;
+  } 
+
  @media only screen and (max-width: 1184px){
     .cocktail-container{
         height: max-content;
