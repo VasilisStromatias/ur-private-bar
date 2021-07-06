@@ -35,7 +35,22 @@
     font-size: 15px;
 }
 
-@media only screen and (max-width: 592px){
+@media only screen and (max-width: 1184px){
+    .masterclass-page-title{
+        height: 130px;
+    }
+
+    .masterclass-page-title h1 {
+        font-size: 120px;
+    }
+
+    .masterclass-container{
+        border: #d8ba43 20px solid;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
     .masterclass-page-title{
         height: 100px;
     }
