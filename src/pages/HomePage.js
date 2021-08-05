@@ -25,7 +25,7 @@ function HomePage (){
 
             <div className='about-us-section-text text-main-light text-center jura-font
             d-flex flex-column justify-content-center align-items-center'>
-                <h1 className='my-4 display-4'>Σχετικά με μας</h1>
+                <h1 className='my-4 display-4'>E-shop branch</h1>
                 <p className='w-50'>Η εταιρεία μας αποτελείται από προσωπικό άρτια εκπαιδευμένο
                 στην Ελλάδα και στο εξωτερικό. Είναι υπέυθυνη για την οργάνωση και την ομαλή
                 λειτουργία της εκδήλωσης. Δημιουργούμε μαζί σας ένα αποκλειστικά ξεχωριστό Menu
