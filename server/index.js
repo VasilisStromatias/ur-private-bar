@@ -18,10 +18,10 @@ app.get ("/api/get", (req,res)=>{
 });
 
 // Route to get one product
-app.get("/api/getFromId/:id", (req,res)=>{
-    const id = req.params.id;
+app.get("/api/getFromId/:productId", (req,res)=>{
+    const id = req.params.productId;
 
-    db.query("SELECT * FROM products WHERE id = ?", id,
+    db.query("SELECT * FROM products WHERE productId = ?", id,
     (err,result)=>{
         if(err){
             console.log(err)
@@ -31,16 +31,19 @@ app.get("/api/getFromId/:id", (req,res)=>{
 });
 
 // Route for decreasing inventory
-app.post("/api/decinv/:id", (req,res)=>{
+app.post("/api/decinv/:productId", (req,res)=>{
 
-    const id= req.params.id;
-    db.query("UPDATE products SET inventory = inventory - 1 WHERE id = ?", id , (err,result)=>{
+    const id= req.params.productId;
+    db.query("UPDATE products SET inventory = inventory - 1 WHERE productId = ?", id , (err,result)=>{
       if(err){
           console.log(err)
       }  
       console.log(result)
     });
 });
+
+//test Route
+app.get("/api/hello", (req,res)=> res.send('Hello there. This is a test message!'))
 
 
 app.listen (port, ()=>{
