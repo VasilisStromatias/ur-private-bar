@@ -1,5 +1,5 @@
 const mysql = require('mysql');
-const db = myslq.createConnection({
+const db = mysql.createConnection({
     host:"localhost",
     user:"root",
     passwword:"",
