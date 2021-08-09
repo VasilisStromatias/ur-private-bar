@@ -96,7 +96,7 @@ function CocktailPage (){
             <div className='download-menu-button-container mb-5'>
                 <button className='download-menu-button btn
                 '>
-                    <a href='#' 
+                    <a href='/' 
                     className='download-menu-link text-main-dark'>
                         Download the menu here
                     </a>
