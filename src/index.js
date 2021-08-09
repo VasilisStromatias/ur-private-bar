@@ -17,6 +17,7 @@ import GalleryPage from './pages/GalleryPage';
 // import Menu from './pages/components/Menu';
 import MenuTest from './pages/components/MenuTest';
 import Footer from './pages/components/Footer';
+import EshopPage from './pages/EshopPage';
 
 ReactDOM.render(
   <>  
@@ -31,6 +32,7 @@ ReactDOM.render(
       <Route path ='/team' component= {TeamPage} />
       <Route path ='/contact' component= {ContactusPage} />
       <Route path ='/gallery' component= {GalleryPage} />
+      <Route path ='/eshop' component= {EshopPage} />
 
     <Footer />
 

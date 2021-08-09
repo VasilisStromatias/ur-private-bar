@@ -54,6 +54,7 @@ d-flex flex-column justify-content-center align-items-center'>
         <NavLink className='text-light' href='/team'>Team</NavLink>
         <NavLink className='text-light' href='/contact'>Contact us</NavLink>
         <NavLink className='text-light' href='/gallery'>Gallery</NavLink>
+        <NavLink className='text-light' href='/eshop'>E-shop</NavLink>
     </Nav>
     
 

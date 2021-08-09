@@ -54,6 +54,7 @@ function Menu () {
             <li className='nav-item'><Link to='/gallery' className='=mx-3 text-light nav-link'>Gallery</Link></li>            
             <li className='nav-item'><Link to='/team' className='=mx-3 text-light nav-link'>Team</Link></li>
             <li className='nav-item'><Link to='/contact' className='=mx-3 text-light nav-link'>Contact us</Link></li>
+            <li className='nav-item'><Link to='/eshop' className='=mx-3 text-light nav-link'>E-shop</Link></li>
         </ul>
         
     </nav>
