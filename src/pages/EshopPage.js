@@ -2,7 +2,6 @@ import React from 'react';
 import {useState , useEffect} from 'react';
 import '../css/EshopPage.css';
 
-
 function EshopPage () {
     
     const [error, setError] = useState(null);
