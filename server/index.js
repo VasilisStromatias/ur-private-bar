@@ -17,6 +17,19 @@ app.get ("/api/get", (req,res)=>{
     });
 });
 
+// Route to get the image of a product
+app.get("/api/getImage/:productId", (req,res)=>{
+    const id = req.params.productId;
+
+    db.query("SELECT productImage FROM products WHERE productId = ?", id,
+    (err,result)=>{
+        if(err){
+            console.log(err)
+        }
+        res.send(result)
+    });
+});
+
 // Route to get one product
 app.get("/api/getFromId/:productId", (req,res)=>{
     const id = req.params.productId;
@@ -29,6 +42,7 @@ app.get("/api/getFromId/:productId", (req,res)=>{
         res.send(result)
     });
 });
+
 
 // Route for decreasing inventory
 app.post("/api/decinv/:productId", (req,res)=>{
