@@ -7,7 +7,6 @@ function EshopPage () {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
-    const [images, setImages] = useState('');
 
     useEffect(() => {
         fetch("http://localhost:3002/api/get")
@@ -16,6 +15,7 @@ function EshopPage () {
             (result)=>{
                 setIsLoaded(true);
                 setItems(result);
+                console.log(result);
             },
 
             (error) =>{
@@ -23,25 +23,7 @@ function EshopPage () {
                 setError(error);
             }
         )
-    })
-
-    useEffect(() => {
-        fetch("http://localhost:3002/api/getImage/")
-        .then(res => res.json())
-        .then (
-            (result)=>{
-                setIsLoaded(true);
-                setImages('http://localhost:3002/' + result);
-                console.log (images);
-            },
-
-            (error) =>{
-                setIsLoaded(true);
-                setError(error);
-            }
-        )
-    })
-
+    },[])
 
 
     if (error){
