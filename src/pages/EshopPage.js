@@ -7,6 +7,7 @@ function EshopPage () {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
+    const [inventory,setInventory]=useState('');
 
     useEffect(() => {
         fetch("http://localhost:3002/api/get")
@@ -25,7 +26,6 @@ function EshopPage () {
         )
     },[])
 
-
     if (error){
         return <div>Error: {error.message}</div>;
     }else if (!isLoaded){
@@ -33,14 +33,23 @@ function EshopPage () {
     }else {
         return(
             <>
-            <h1 className='text-light jura-font'>Products</h1>
+            <h1 className='title-products text-light jura-font
+            text-center'>Products</h1>
             <article className='text-light jura-font'>
                 {items.map(item =>(
-                    <div className='border' key={item.productId}>
-                        <h1>{item.productName}</h1>
-                        <h3>{item.productInfo}</h3>
-                        <p>Price: {item.productPrice} euro</p>
-                        <p>Inventory: {item.inventory} left</p>
+                    <div className='border-bottom container item-container
+                    d-flex align-items-center justify-content-between
+                    px-5' key={item.productId}>
+                        <div>
+                            <h1 className='item-name'>{item.productName}</h1>
+                            <h3 className='item-info'>{item.productInfo}</h3>
+                        </div>
+                        <div className=''>
+                            <p className='item-price'>Price: {item.productPrice} €</p>
+                            <p className='item-inventory'>Inventory: {item.inventory} left</p>
+                            <button className='item-button btn btn-warning'>Add to cart</button>
+                        </div>
+
                     </div>
                 ))}
             </article>
