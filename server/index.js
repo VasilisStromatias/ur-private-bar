@@ -17,11 +17,11 @@ app.get ("/api/get", (req,res)=>{
     });
 });
 
-// Route to get the image of a product
-app.get("/api/getImage/:productId", (req,res)=>{
+// Route to get the inventory of a product
+app.get("/api/getInventory/:productId", (req,res)=>{
     const id = req.params.productId;
 
-    db.query("SELECT productImage FROM products WHERE productId = ?", id,
+    db.query("SELECT inventory FROM products WHERE productId = ?", id,
     (err,result)=>{
         if(err){
             console.log(err)
@@ -45,15 +45,18 @@ app.get("/api/getFromId/:productId", (req,res)=>{
 
 
 // Route for decreasing inventory
-app.post("/api/decinv/:productId", (req,res)=>{
+app.post("/api/decinv/:productId", async(req,res)=>{
 
-    const id= req.params.productId;
-    db.query("UPDATE products SET inventory = inventory - 1 WHERE productId = ?", id , (err,result)=>{
-      if(err){
-          console.log(err)
-      }  
-      console.log(result)
-    });
+    try {
+        const id= req.params.productId;
+        await db.query("UPDATE products SET inventory = inventory - 1 WHERE productId = ?", id , (err,result)=>{
+
+          console.log(result)
+        });    
+        
+    } catch (error) {
+        console.log(error);
+    }
 });
 
 //test Route
